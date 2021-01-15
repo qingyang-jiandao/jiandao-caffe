@@ -8,11 +8,7 @@ Please check out the prerequisites and read the detailed notes at the [BVLC Caff
 #### Linux
 A simple guide:
 1. Ensure that you have all the dependencies mentioned at the [BVLC Caffe Installation](http://caffe.berkeleyvision.org/installation.html) for your OS installed (protobuf, leveldb, snappy, opencv, hdf5-serial, protobuf-compiler, BLAS, Python, CUDA etc.)
-2. Also Install [matio](https://github.com/tbeu/matio) in your environment. After that, add [your installed matio path]/lib to the LD_LIBRARY_PATH.
-```Shell
-export LD_LIBRARY_PATH=[your installed matio path]/lib:${LD_LIBRARY_PATH}
-```
-3. Checkout the Jiandao Caffe **master** branch. Configure the build by copying and modifying the example Makefile.config for your setup.
+2. Checkout the Jiandao Caffe **main** branch. Configure the build by copying and modifying the example Makefile.config for your setup.
 ```Shell
 git clone https://github.com/qingyang-jiandao/jiandao-caffe.git
 cd jiandao-caffe
@@ -20,7 +16,7 @@ cp Makefile.config.example Makefile.config
 # Modify Makefile.config to suit your needs, e.g. enable/disable the CPU-ONLY, CUDNN, NCCL and set the path for CUDA, Python and BLAS.
 # If needed, add [your installed matio path]/include to INCLUDE_DIRS and [your installed matio path]/lib to LIBRARY_DIRS.
 ```
-4. Build Caffe and run the tests.
+3. Build Caffe and run the tests.
 ```Shell
 make -j4 && make pycaffe
 ```
