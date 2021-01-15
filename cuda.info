@@ -1,0 +1,129 @@
+G:\deeplab\caffe-deeplab>build_win.cmd
+系统找不到指定的驱动器。
+系统找不到指定的驱动器。
+INFO: ============================================================
+INFO: Summary:
+INFO: ============================================================
+INFO: MSVC_VERSION               = 14
+INFO: WITH_NINJA                 = 0
+INFO: CMAKE_GENERATOR            = "Visual Studio 14 2015 Win64"
+INFO: CPU_ONLY                   = 0
+INFO: CUDA_ARCH_NAME             = Auto
+INFO: CMAKE_CONFIG               = Release
+INFO: USE_NCCL                   = 0
+INFO: CMAKE_BUILD_SHARED_LIBS    = 0
+INFO: PYTHON_VERSION             = 3
+INFO: BUILD_PYTHON               = 1
+INFO: BUILD_PYTHON_LAYER         = 1
+INFO: BUILD_MATLAB               = 0
+INFO: PYTHON_EXE                 = "python"
+INFO: RUN_TESTS                  = 0
+INFO: RUN_LINT                   = 0
+INFO: RUN_INSTALL                = 0
+INFO: ============================================================
+huitang_INFO: G:\deeplab\caffe-deeplab\
+-- Selecting Windows SDK version  to target Windows 10.0.17134.
+-- The C compiler identification is MSVC 19.0.24215.1
+-- The CXX compiler identification is MSVC 19.0.24215.1
+-- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/x86_amd64/cl.exe
+-- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/x86_amd64/cl.exe -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/x86_amd64/cl.exe
+-- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/x86_amd64/cl.exe -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found PythonInterp: C:/Python/Python35/python.exe (found suitable version "3.5.2", minimum required is "2.7")
+-- Looking for pthread.h
+-- Looking for pthread.h - not found
+-- Found Threads: TRUE
+-- Boost version: 1.61.0
+-- Found the following Boost libraries:
+--   system
+--   thread
+--   filesystem
+--   chrono
+--   date_time
+--   atomic
+-- Found GFlags: C:/Users/huitang/.caffe/dependencies/libraries_v140_x64_py35_1.1.0/libraries/include
+-- Found gflags  (include: C:/Users/huitang/.caffe/dependencies/libraries_v140_x64_py35_1.1.0/libraries/include, library: gflags_shared)
+-- Found Glog: C:/Users/huitang/.caffe/dependencies/libraries_v140_x64_py35_1.1.0/libraries/include
+-- Found glog    (include: C:/Users/huitang/.caffe/dependencies/libraries_v140_x64_py35_1.1.0/libraries/include, library: glog)
+-- Found Protobuf: C:/Users/huitang/.caffe/dependencies/libraries_v140_x64_py35_1.1.0/libraries/bin/protoc.exe (found version "3.1.0")
+-- Found PROTOBUF Compiler: C:/Users/huitang/.caffe/dependencies/libraries_v140_x64_py35_1.1.0/libraries/bin/protoc.exe
+-- Found LMDB: C:/Users/huitang/.caffe/dependencies/libraries_v140_x64_py35_1.1.0/libraries/include
+-- Found lmdb    (include: C:/Users/huitang/.caffe/dependencies/libraries_v140_x64_py35_1.1.0/libraries/include, library: lmdb)
+-- Found LevelDB: C:/Users/huitang/.caffe/dependencies/libraries_v140_x64_py35_1.1.0/libraries/include
+-- Found LevelDB (include: C:/Users/huitang/.caffe/dependencies/libraries_v140_x64_py35_1.1.0/libraries/include, library: leveldb)
+-- Found ZLIB: optimized;C:/Users/huitang/.caffe/dependencies/libraries_v140_x64_py35_1.1.0/libraries/lib/caffezlib.lib;debug;C:/Users/huitang/.caffe/dependencies/libraries_v140_x64_py35_1.1.0/libraries/lib/caffezlibd.lib (found version "1.2.8")
+-- Found Snappy: C:/Users/huitang/.caffe/dependencies/libraries_v140_x64_py35_1.1.0/libraries/include
+-- Found Snappy  (include: C:/Users/huitang/.caffe/dependencies/libraries_v140_x64_py35_1.1.0/libraries/include, library: snappy_static;optimized;C:/Users/huitang/.caffe/dependencies/libraries_v140_x64_py35_1.1.0/libraries/lib/caffezlib.lib;debug;C:/Users/huitang/.caffe/dependencies/libraries_v140_x64_py35_1.1.0/libraries/lib/caffezlibd.lib)
+-- CUDA detected: 9.0
+-- Found cuDNN: ver. 7.0.5 found (include: C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v9.0/include, library: C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v9.0/lib/x64/cudnn.lib)
+-- Added CUDA NVCC flags for: sm_61
+-- OpenCV found (C:/Users/huitang/.caffe/dependencies/libraries_v140_x64_py35_1.1.0/libraries)
+-- Found OpenBLAS libraries: C:/Users/huitang/.caffe/dependencies/libraries_v140_x64_py35_1.1.0/libraries/lib/libopenblas.dll.a
+-- Found OpenBLAS include: C:/Users/huitang/.caffe/dependencies/libraries_v140_x64_py35_1.1.0/libraries/include
+-- Found PythonLibs: C:/Python/Python35/libs/python35.lib (found suitable version "3.5.2", minimum required is "2.7")
+-- Found NumPy: C:/Python/Python35/lib/site-packages/numpy/core/include (found suitable version "1.14.6", minimum required is "1.7.1")
+-- NumPy ver. 1.14.6 found (include: C:/Python/Python35/lib/site-packages/numpy/core/include)
+-- Boost version: 1.61.0
+-- Found the following Boost libraries:
+--   python
+-- Found Git: D:/Program Files/Git/cmd/git.exe (found version "2.20.1.windows.1")
+--
+-- ******************* Caffe Configuration Summary *******************
+-- General:
+--   Version           :   1.0.0
+--   Git               :   unknown
+--   System            :   Windows
+--   C++ compiler      :   C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/x86_amd64/cl.exe
+--   Release CXX flags :   /MD /O2 /Ob2 /DNDEBUG /DWIN32 /D_WINDOWS /W3 /GR /EHsc
+--   Debug CXX flags   :   /MDd /Zi /Ob0 /Od /RTC1 /DWIN32 /D_WINDOWS /W3 /GR /EHsc
+--   Build type        :   Release
+--
+--   BUILD_SHARED_LIBS :   0
+--   BUILD_python      :   1
+--   BUILD_matlab      :   0
+--   BUILD_docs        :
+--   CPU_ONLY          :   0
+--   USE_OPENCV        :   ON
+--   USE_LEVELDB       :   ON
+--   USE_LMDB          :   ON
+--   USE_NCCL          :   0
+--   ALLOW_LMDB_NOLOCK :   OFF
+--
+-- Dependencies:
+--   BLAS              :   Yes (Open)
+--   Boost             :   Yes (ver. 1.61)
+--   glog              :   Yes
+--   gflags            :   Yes
+--   protobuf          :   Yes (ver. 3.1.0)
+--   lmdb              :   Yes (ver. 0.9.70)
+--   LevelDB           :   Yes (ver. 1.18)
+--   Snappy            :   Yes (ver. 1.1.1)
+--   OpenCV            :   Yes (ver. 3.1.0)
+--   CUDA              :   Yes (ver. 9.0)
+--
+-- NVIDIA CUDA:
+--   Target GPU(s)     :   Auto
+--   GPU arch(s)       :   sm_61
+--   cuDNN             :   Yes (ver. 7.0.5)
+--
+-- Python:
+--   Interpreter       :   C:/Python/Python35/python.exe (ver. 3.5.2)
+--   Libraries         :   C:/Python/Python35/libs/python35.lib (ver 3.5.2)
+--   NumPy             :   C:/Python/Python35/lib/site-packages/numpy/core/include (ver 1.14.6)
+--
+-- Install:
+--   Install path      :   G:/deeplab/caffe-deeplab/build_test/install
+--
+-- Configuring done
+-- Generating done
+-- Build files have been written to: G:/deeplab/caffe-deeplab/build_test
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
